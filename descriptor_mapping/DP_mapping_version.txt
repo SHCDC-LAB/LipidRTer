@@ -1,0 +1,3 @@
+PaDEL Version: 2.21
+
+Descriptor Count: 1444
