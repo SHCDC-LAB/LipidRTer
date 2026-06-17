@@ -1,0 +1,22 @@
+# Minimal dependencies for RT_Prediction_Project
+# Python package dependencies only.
+# Java/OpenJDK and PaDEL-Descriptor-2.21.jar are external tools, not pip packages.
+streamlit>=1.32
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.11.4
+scikit-learn==1.5.2
+joblib==1.4.2
+matplotlib==3.8.4
+rdkit-pypi==2022.9.5
+
+# Keep these if voting_model.joblib was trained with them.
+# Removing any of them may cause joblib.load(voting_model.joblib) to fail.
+xgboost==2.0.3
+lightgbm==4.3.0
+catboost==1.2.5
+
+# Notebook runtime, only needed if running the .ipynb version.
+ipykernel==6.28.0
+jupyter==1.0.0
+notebook==7.0.8
